@@ -1,0 +1,7 @@
+[default]
+port = 8000
+address = "127.0.0.1"
+log_level = "normal"
+
+[default.databases]
+blog_task_1 = { url = "postgres://blog_user:password@localhost/blog" }
